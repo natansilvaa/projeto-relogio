@@ -1,0 +1,36 @@
+html, body{
+    body, html {
+       margin: 0px;
+       padding: 0px;
+       background-color: rgb(75, 59, 59);
+      }
+  
+      /* Estilo para a div com a classe 'relogio' */
+      .relogio {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+      }
+      .display {
+        font-size: 7rem; /* Tamanho grande para o relógio */
+        font-weight: bold; /* Deixar o texto em negrito */
+        margin-bottom: 10px; /* Espaçamento entre o display e o rodapé */
+        border: 10px solid yellow ;
+        padding: 5px;
+        border-radius: 10px;
+        height: 200px;
+        width: 450px;
+        text-align: center;
+        line-height: 200px;
+      }
+  
+      /* Estilo para o rodapé */
+      footer {
+        font-size: 14px; /* Tamanho da fonte do rodapé */
+        color: #555; /* Cor do texto do rodapé */
+      }
+}
+
